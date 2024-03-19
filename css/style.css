@@ -5,9 +5,14 @@
     font-family: "Noto Sans Khojki", sans-serif;
 }
 
+body{
+    background-color: rgba(19, 18, 18, 0.11);
+}
+
 /* SEZIONE DI TESTA DELLA PAGINA */
 header{
     background-color: white;
+    margin-bottom: 40px;
 }
 
 .logo_text{
@@ -24,4 +29,67 @@ header{
     padding-top: 5px;
 }
 
+/* SEZIONE MAIN */
+.container .button{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding-left: 40px;
+}
 
+.button{
+    margin-top: 20px;
+}
+
+.trasparente{
+    background-color: white;
+    color: gray;
+}
+
+input .button{
+    border: 1px solid grey;
+}
+
+/* SEZIONE LISTA     */
+.lista_principale{
+    list-style-type: none;
+    background-color: white;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+.sottolista{
+    list-style-type: none;
+}
+
+.tondo{
+    font-size: small;
+    border-radius: 13px;
+    color: white;
+    padding: 3px 5px;
+}
+.blue{
+    background-color: skyblue;
+}
+
+.viola{
+    background-color: rgb(139, 17, 196);
+}
+
+.verde{
+    background-color: rgb(16, 168, 42);
+}
+
+.arancio{
+    background-color: orange;
+}
+
+.rosa{
+    background-color: rgb(238, 156, 170);
+}
+
+.lime{
+    background-color: lime;
+}
